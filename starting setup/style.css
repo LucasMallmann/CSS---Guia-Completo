@@ -1,0 +1,21 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview{
+    background: #ff1b68;
+}
+
+
+#product-overview h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+}
+
+.section-title{
+    color: #2ddf5c;
+    /* font-family: inherit; */
+}
