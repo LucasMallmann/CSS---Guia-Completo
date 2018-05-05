@@ -1,0 +1,28 @@
+h1{
+    color: orange;
+    text-align: center;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.green-code{
+    color: green;
+    font-weight: bold;
+}
+
+code{
+    font-family: monospace;
+    color: red;
+}
+
+/* li:not(#fst){
+    background: black;
+    color: white
+} */
+
+ol li{
+    background: black;
+    color: white
+}
