@@ -3,6 +3,16 @@
     color: white;
     height: 528px;
     padding: 10px;
+    margin: 100px 0;
+    position: relative;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
 }
 
 .section-title{

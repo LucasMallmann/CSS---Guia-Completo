@@ -1,0 +1,55 @@
+// output: index.html
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title uHost Customers
+    link(rel='shortcut icon', href='../favicon.png')
+    link(href='https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700', rel='stylesheet')
+    link(rel='stylesheet', href='../shared.css')
+    link(rel='stylesheet', href='customers.css')
+  body
+    .backdrop
+    header.main-header
+      div
+        a.main-header__brand(href='index.html')
+          img(src='../images/uhost-icon.png', alt='uHost - Sua empresa de host favorita')
+      nav.main-nav
+        ul.main-nav__items
+          li.main-nav__item
+            a(href='../packages/index.html') Pacotes
+          li.main-nav__item
+            a(href='../customers/index.html') Clientes
+          li.main-nav__item.main-nav__item--cta
+            a(href='#') Host Inicial
+    main
+      div
+        #customer-1.testimonial
+          .testimonial__image-container
+            img.testimonial__image(src='./images/customer-1.jpg', alt='Mike Statham - Customer')
+          .testimonial__info
+            h1.testimonial__name Mike Statham
+            h2.testimonial__subtitle
+              | Founder of
+              a(href='tech-analysis.com') tech-analysis.com
+            p.testimonial__text
+              | uHost helped me realize my project with a highly constrained budget in like no time.
+        #customer-2.testimonial
+          .testimonial__info
+            h1.testimonial__name John Mellow
+            h2.testimonial__subtitle
+              | Hosts his private videos on uHost.
+            p.testimonial__text
+              | I worked as a blogger and always looked for an integrated hosting and file storage solution. I found
+              | it in uHost!
+          .testimonial__image-container
+            img.testimonial__image(src='./images/customer-2.jpg', alt='John Mellow - Customer')
+    footer.main-footer
+      nav
+        ul
+          li
+            a(href='#') Support
+          li
+            a(href='#') Terms of Use
